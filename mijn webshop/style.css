@@ -35,7 +35,9 @@ body {
 
 }
 
-
+.infostyle {
+background-color: #3b6692;
+}
 
 #footer {
     position: sticky;
