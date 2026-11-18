@@ -27,7 +27,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
     img {
         height: 200px;
         width: 200px;
@@ -38,6 +37,26 @@ body {
 .infostyle {
 background-color: #3b6692;
 }
+
+.border{
+    border: #333;
+    border-radius: 3%;
+    border: groove;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px;
+    padding: 1%;
+}
+
+.border a {
+    background-color: #9bcdff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.border a:hover{
+    background-color: #094b8e;
+} 
 
 #footer {
     position: sticky;
