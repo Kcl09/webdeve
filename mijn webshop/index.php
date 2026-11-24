@@ -9,13 +9,8 @@
 </head>
 
 <body>
-    <!-- dit is de navigatie balk -->
-    <div class="navbar">
-        <p><a href="index.php"> <img href="index.php" src="img/fishlogo.png" alt="logo van een vis" ></a></p>
-        <a href="#home">about</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <!-- dit is de navigatie balk het staat in een andere php file maar is hier gebracht-->
+       <?php include "include/header.php";?> 
 
     <p>Welkom bij fishhub de plek waar je vis kan halen. </p>
 
@@ -82,14 +77,8 @@
             <a href="swordfish.php">Bekijk</a>
         </div>
     </div>
-    <div id="footer">
-
-        <a href="#contact">Contact</a>
-        <a href="#news">News</a>
-        <a href="#privacy">Privacy</a>
-        <a>&copy;2026 fih</a>
-
-    </div>
+    <!-- hier staat de footer maar dat is in een andere file -->
+    <?php include "include/footer.php";?>
 </body>
 
 </html>
