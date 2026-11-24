@@ -11,8 +11,8 @@
 <body>
 
     <div class="navbar">
-        <p><a href="index.html">
-                <img href="index.html" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
+        <p><a href="index.php">
+                <img href="index.php" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
             </a>
         </p>
         <a href="#home">about</a>
@@ -21,7 +21,7 @@
     </div>
     <!-- bestel invull plekken -->
     <div>
-        <form class="formulier" action="bedankpagina.html">
+        <form class="formulier" action="bedankpagina.php">
         <div class="veld">
                 <label for="voornaam">voornaam</label>
                 <input type="text" id="voornaam" name="voornaam">

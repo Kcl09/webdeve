@@ -11,8 +11,8 @@
 <body>
 
     <div class="navbar">
-        <p><a href="index.html">
-                <img href="index.html" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
+        <p><a href="index.php">
+                <img href="index.php" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
             </a>
         </p>
         <a href="#home">about</a>

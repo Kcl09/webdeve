@@ -11,8 +11,8 @@
 <body>
 
     <div class="navbar">
-        <p><a href="index.html">
-                <img href="index.html" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
+        <p><a href="index.php">
+                <img href="index.php" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
             </a>
         </p>
         <a href="#home">about</a>
@@ -20,8 +20,9 @@
         <a href="#contact">Contact</a>
     </div>
 
-<h1>the puffa </h1>
-<img src="img/puffa.png" alt="random ahh fish" width=auto height=auto>
+<h1>the knight of the sea the swordfish </h1>
+<img src="img/swordguy.png" alt="random ahh fish" width=auto height=auto>
+
  <div id="footer">
 
         <a href="#contact">Contact</a>

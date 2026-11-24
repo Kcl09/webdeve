@@ -11,8 +11,8 @@
 <body>
 
     <div class="navbar">
-        <p><a href="index.html">
-                <img href="index.html" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
+        <p><a href="index.php">
+                <img href="index.php" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
             </a>
         </p>
         <a href="#home">about</a>
@@ -20,16 +20,20 @@
         <a href="#contact">Contact</a>
     </div>
 
-<h1>rohuCarp </h1>
-<img src="img/rohuCarp.png" alt="random ahh fish" width=auto height=auto>
-
+<div class="infostyle">
+    <h1>da Barras</h1>
+    <img src="img/barras.png" alt="barras" width="600" height=auto>
+    <h2>&euro; 60</h2>
+    <p>de barras vis ook wel een baars genoemt is een van de meest voorkomende inheemse zoetwaterroofvissen in Nederland en België.</p>    
+    <button onclick="window.location.href='bestel.php'">bestellen </button>
+</div>
 <div id="footer">
 
         <a href="#contact">Contact</a>
         <a href="#news">News</a>
         <a href="#privacy">Privacy</a>
-        <a>&copy;2026 fih</a>
-
+       <a>&copy;2026 fih</a>
+       
     </div>
 </body>
 

@@ -11,17 +11,17 @@
 <body>
 
     <div class="navbar">
-        <p><a href="index.html">
-                <img href="index.html" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
+        <p><a href="index.php">
+                <img href="index.php" src="img/fishlogo.png" alt="logo van een vis" width="50" height="50">
             </a>
         </p>
         <a href="#home">about</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
     </div>
-<div class="content">
-    <h1>Bedankt voor het bestellen</h1>
-</div>
+
+<h1>the fish with shoes and a hat aka the dripler</h1>
+<img src="img/fishwithshoesandhat.png" alt="random ahh fish" width=auto height=auto>
 
  <div id="footer">
 
