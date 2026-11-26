@@ -45,6 +45,10 @@ body {
 .infostyle {
     background-color: #3b6692;
     padding-left: 25px;
+    img {
+        height: auto;
+        width: 600;
+    }
 }
 
 /* een border om de vissen heen   */
@@ -123,4 +127,8 @@ padding-left: 20px;
 
 .vinkje input {
     width: auto;
+}
+
+.prijs {
+    
 }
