@@ -17,7 +17,7 @@
     $stmt->execute([$id]);
     $product = $stmt->fetch();
     ?>
-    
+
     <!-- dit is de header staat in een andere file maar is hier gebracht -->
     <?php include "include/header.php"; ?>
 
