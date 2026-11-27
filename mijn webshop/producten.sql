@@ -45,7 +45,7 @@ INSERT INTO `producten` (`id`, `naam`, `prijs`, `omschrijving`, `afbeelding`) VA
 (3, 'Fish with shoes and hat', 5000.00, 'The fish with shoes and hat was eerst gewoon een normale vis maar nadat hij een hoed en wat schoenen had gevonden werdt hij de drippler.', 'fishwithshoesandhat.png'),
 (4, 'Puffer Fish', 1250.00, 'A vis die kan opblazen', 'puffa.png'),
 (5, 'Rohu Carp', 24.00, 'De rohu carp is een grote zoetwaterkarper uit Azië die veel wordt gebruikt in de keuken en de viskweek. De vis heeft een langgerekt lichaam, dikke lippen en zilverkleurige schubben met vaak een roze of donkere gloed.', 'rohucarp.png'),
-(6, 'Swordfish', 1800.00, 'Swordfish verwijst meestal naar een geavanceerde oplostechniek bij sudoku of naar de zeer grote roofvis met een zwaardvormige snuit.', 'swordfish.png'),
+(6, 'Swordfish', 1800.00, 'Swordfish verwijst meestal naar een geavanceerde oplostechniek bij sudoku of naar de zeer grote roofvis met een zwaardvormige snuit.', 'swordguy.png'),
 (7, 'Asian Blobvis', 9999.99, 'Een vis blob vis die in een chinese time van zijn leven is.', 'asianblobvis.png'),
 (8, 'flopper', 10.00, 'Flopper van Fortnite', 'flopper.webp'),
 (9, 'Midas Flopper', 9999.99, 'Midas Flopper van Fortnite', 'midasFlopper.webp'),

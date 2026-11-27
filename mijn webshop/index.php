@@ -9,30 +9,30 @@
     </head>
 
     <body>
+        <!-- connect de data base aan de pagina -->
         <?php include "include/db.php";
-    $producten = $pdo->query("SELECT * FROM producten")->fetchAll();?>
+        $producten = $pdo->query("SELECT * FROM producten")->fetchAll(); ?>
 
         <!-- dit is de navigatie balk het staat in een andere php file maar is hier gebracht-->
-        <?php include "include/header.php";?>
-
-
+        <?php include "include/header.php"; ?>
 
         <p>Welkom bij fishhub de plek waar je vis kan halen. </p>
 
         <h2>Soorten vis</h2>
+        <!-- de foreach loop is om de producten te laten zien met behulp van de data base -->
         <div class="content">
-            <?php foreach ($producten as $product) {?>
+            <?php foreach ($producten as $product) { ?>
                 <div class="border">
-                   <h3><?php echo $product['naam'];?></h3>
-                    <p><img src="img\<?php echo $product['afbeelding']?>" alt="<?php echo $product['naam'] ?>" </p>
+                    <h3><?php echo $product['naam']; ?></h3>
+                    <p><img src="img\<?php echo $product['afbeelding'] ?>" alt="<?php echo $product['naam'] ?>" </p>
                     <p class="prijs">&euro; <?php echo number_format($product['prijs'], 2, ',', '.'); ?></p>
-                    <a href="detail.php?id=<?php echo $product['id'];?>">Bekijk</a>
-            </div>
+                    <a href="detail.php?id=<?php echo $product['id']; ?>">Bekijk</a>
+                </div>
             <?php } ?>
-           
+
         </div>
         <!-- hier staat de footer maar dat is in een andere file -->
-        <?php include "include/footer.php";?>
+        <?php include "include/footer.php"; ?>
     </body>
 
     </html>
